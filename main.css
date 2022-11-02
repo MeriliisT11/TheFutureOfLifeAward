@@ -9,11 +9,10 @@ background-image: linear-gradient(to bottom right, #60F33F, #F1EC4D, #FF77CC, rg
   }
 
 .left {
-  text-align: right;column-fill: auto;
+  text-align: right; column-fill: auto; border: 1px solid white; float: right;
   }
 
 .right {
-  border: 1px solid white;
   text-align: left;column-fill: auto;
   }
 
@@ -22,11 +21,41 @@ background-image: linear-gradient(to bottom right, #60F33F, #F1EC4D, #FF77CC, rg
     }
 
 h1 {
-  font-size: 15px;
+  font-size: 20px;
 }
 h2 {
-  font-size: 10px;
+  font-size: 15px;
  }
 h3 {
   font-size: 110px;
  }
+ .news {
+   border: 1px solid white;
+   }
+      .podcasts {
+     border: 1px solid white;
+     }
+ .focus {
+       border: 1px solid white;
+       }
+ .search {
+      border: 1px solid white;
+         }
+.about {
+  border: 1px solid white;
+  }
+.contact {
+  border: 1px solid white;
+  }
+  .support {
+    border: 1px solid white;
+    }
+.mini2 {
+text-align:left;
+}
+.mini1 {
+text-align:right;
+}
+.bottom {
+margin-bottom: 50px; column-count: 4
+}
